@@ -15,7 +15,17 @@ export default function Portfolio({ data }) {
   return (
     <section id="work" className="portfolio">
       <div className="container">
-        <div className="section-header">
+        <div className="section-header portfolio-header">
+          <motion.div 
+            className="portfolio-kicker"
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            Featured Projects
+          </motion.div>
+
           <motion.h2 
             className="heading-lg"
             initial={{ opacity: 0, y: 20 }}
