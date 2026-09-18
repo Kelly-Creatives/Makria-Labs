@@ -1,9 +1,12 @@
+import { img } from "framer-motion/client";
+
 export const servicesData = [
   {
     id: 1,
     title: 'Software Development',
     description: 'Custom websites, web apps, SaaS platforms, and backend systems.',
     icon: 'Code',
+
     capabilities: ['Web Applications', 'Mobile Apps', 'APIs & Backend', 'System Integration']
   },
   {
@@ -39,51 +42,51 @@ export const servicesData = [
 export const portfolioData = [
   {
     id: 1,
-    title: 'Fintech Dashboard',
+    title: 'Meridian Finance',
     category: 'Web App',
-    description: 'A comprehensive financial dashboard for a modern neo-bank.',
+    description: 'A modern finance dashboard helping a digital bank track cash flow, risk, and growth in real time.',
     technologies: ['React', 'Node.js', 'PostgreSQL'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800'
+    image: 'public/makria logo.png'
   },
   {
     id: 2,
-    title: 'E-commerce Platform',
+    title: 'Northline Atelier',
     category: 'Website',
-    description: 'Scalable e-commerce solution for a premium fashion brand.',
-    technologies: ['Next.js', 'Stripe', 'MongoDB'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800'
+    description: 'A premium ecommerce experience for a boutique fashion label with elevated product storytelling.',
+    technologies: ['Next.js', 'Stripe', 'Shopify'],
+    image: 'public/makria logo.png'
   },
   {
     id: 3,
-    title: 'Taxi/Mobility App',
+    title: 'Harbor Transit',
     category: 'Mobile App',
-    description: 'A sleek, reliable ride-hailing app with real-time tracking.',
-    technologies: ['React Native', 'Firebase', 'Google Maps API'],
-    image: 'https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=800'
+    description: 'A ride-share companion app built for streamlined booking, live dispatch, and trip transparency.',
+    technologies: ['React Native', 'Firebase', 'Maps API'],
+    image: 'public/makria logo.png'
   },
   {
     id: 4,
-    title: 'Business Management System',
+    title: 'Verve Ops',
     category: 'Software',
-    description: 'Internal operations tool to automate workflows.',
+    description: 'An operations system that centralized tasks, approvals, and reporting for a growing service business.',
     technologies: ['React', 'Express', 'MySQL'],
-    image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=800'
+    image: 'public/makria logo.png'
   },
   {
     id: 5,
-    title: 'Brand Identity Project',
+    title: 'Luma Studio',
     category: 'Branding',
-    description: 'Complete brand overhaul and guidelines for a SaaS startup.',
-    technologies: ['Figma', 'Illustrator'],
-    image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=800'
+    description: 'A full identity refresh and visual system for a startup preparing to scale its digital presence.',
+    technologies: ['Figma', 'Illustrator', 'Brand Strategy'],
+    image: 'public/makria logo.png'
   },
   {
     id: 6,
-    title: 'Social Media Campaign',
+    title: 'Spark Narrative',
     category: 'Content',
-    description: 'Viral content strategy and execution for a lifestyle brand.',
-    technologies: ['Premiere Pro', 'After Effects'],
-    image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=800'
+    description: 'A marketing content engine designed to turn brand messaging into short-form video and social growth.',
+    technologies: ['Premiere Pro', 'After Effects', 'Content Strategy'],
+    image: 'public/makria logo.png'
   }
 ];
 
@@ -122,7 +125,7 @@ export const testimonialsData = [
     company: 'TechFlow Solutions',
     role: 'CEO',
     text: 'Makria Labs delivered our product ahead of schedule with exceptional quality. Their understanding of both business strategy and technical execution is rare.',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150'
+    avatar: 'public/makria logo.png'
   },
   {
     id: 2,
